@@ -19,13 +19,13 @@ function App() {
     <div className="App">
       <Nav/>
     <Routes>
-      <Route path='/signin' element={<Signin/>}/>
-      <Route path='/signup'element={<Signup/>}/>
-      <Route path='/dashboord'element={<WithAuthentication><Dashboord /></WithAuthentication>}/>
-      <Route path='/quize'element={<WithRoleAuthentication><CreateQuize/></WithRoleAuthentication>}/>
-      <Route path='/viewQuize'element={<WithRoleAuthentication><ViewQuize/></WithRoleAuthentication>}/>
-      <Route path='/viewannounce'element={<WithRoleAuthentication><ViewAnnouncement/></WithRoleAuthentication>}/>
-      <Route path='/createannounce'element={<WithRoleAuthentication><CreateAnnouncement/></WithRoleAuthentication>}/>
+      <Route path='signin' element={<Signin/>}/>
+      <Route path='signup'element={<Signup/>}/>
+      <Route path='dashboord'element={<WithAuthentication><Dashboord /></WithAuthentication>}/>
+      <Route path='quize'element={<WithRoleAuthentication><CreateQuize/></WithRoleAuthentication>}/>
+      <Route path='viewQuize'element={<WithRoleAuthentication><ViewQuize/></WithRoleAuthentication>}/>
+      <Route path='viewannounce'element={<WithRoleAuthentication><ViewAnnouncement/></WithRoleAuthentication>}/>
+      <Route path='createannounce'element={<WithRoleAuthentication><CreateAnnouncement/></WithRoleAuthentication>}/>
     </Routes>
     </div>
   );
